@@ -14,7 +14,7 @@ A simple, interactive web app where users can create "time capsules" containing 
 
 - Python 3.x
 - Streamlit (`streamlit`)
-- Other dependencies (see `requirements.txt`)
+
 
 ## Installation
 
@@ -55,6 +55,9 @@ A simple, interactive web app where users can create "time capsules" containing 
 
 4. **Logout**:
    - You can log out at any time by selecting **Logout** from the sidebar.
+
+***Run in your browser*
+- https://rtek6dpke2odc2p2kpd3vc.streamlit.app/
 
 
 
