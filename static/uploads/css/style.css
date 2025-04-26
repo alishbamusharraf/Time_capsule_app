@@ -1,0 +1,118 @@
+/* 🌌 Global Styles */
+body {
+    background: linear-gradient(to right, #1f1c2c, #928dab); /* Gradient background */
+    color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+/* 🧱 Layout Containers */
+.container {
+    margin-top: 60px;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 🧊 Card Styles */
+.card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #2d2d3f;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+    border-radius: 15px;
+    padding: 25px;
+    background-color: #3b3a50;
+    color: #ffffff;
+}
+
+/* 🎯 Headings */
+h3, h4 {
+    color: #ff9f45;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* 🧷 Buttons */
+button, .btn {
+    border-radius: 30px;
+    background-color: #ff7043;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover, .btn:hover {
+    background-color: #f4511e;
+    transform: scale(1.05);
+}
+
+/* 📝 Forms */
+input, textarea {
+    border-radius: 10px;
+    border: none;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    background-color: #4e4d5e;
+    color: #fff;
+    width: 100%;
+    transition: border 0.3s ease;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 2px solid #ff7043;
+}
+
+/* 📎 File Upload Field */
+input[type="file"] {
+    padding: 10px;
+    background-color: #4e4d5e;
+    border: 1px dashed #888;
+}
+
+/* 🔗 Links */
+a {
+    color: #ff7043;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #f4511e;
+}
+
+/* ✨ Fancy Glow Animation */
+.glow {
+    text-shadow: 0 0 10px #ff7043, 0 0 20px #ff7043;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
